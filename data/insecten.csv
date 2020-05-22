@@ -1,6 +1,6 @@
 image,naamNL,naamEN,prijs,type,tijd,januari,febuari,maart,april,mei,juni,juli,augustus,september,oktober,november,december
 "Koolwitje-1.png","Koolwitje","Common butterfly","160","Vliegend","04:00 - 19:00","✓","✓","✓","✓","✓","✓","-","-","✓","✓","✓","✓"
-"Cioenvlinder.png","Cioenvlinder","Yellow butterfly","160","Vliegend","04:00 - 19:00","-","-","✓","✓","✓","✓","-","-","✓","✓","-","-"
+"Citroenvlinder.png","Citroenvlinder","Yellow butterfly","160","Vliegend","04:00 - 19:00","-","-","✓","✓","✓","✓","-","-","✓","✓","-","-"
 "Koninginnenpage.png","Koninginnenpage","Tiger butterfly","240","Vliegend","04:00 - 19:00","-","-","✓","✓","✓","✓","✓","✓","✓","-","-","-"
 "Pauwenpage.png","Pauwenpage","Peacock butterfly","2500","Vliegend (hybride bloemen)","04:00 - 19:00","-","-","✓","✓","✓","✓","-","-","-","-","-","-"
 "EN-Common-bluebottle.png","Blauwe driehoek","Common bluebottle","300","Vliegend","04:00 - 19:00","-","-","-","✓","✓","✓","✓","✓","-","-","-","-"
@@ -68,8 +68,8 @@ image,naamNL,naamEN,prijs,type,tijd,januari,febuari,maart,april,mei,juni,juli,au
 "EN-Walking-Leaf.png","Wandelend blad","Walking leaf","600","Onder bomen (vermomd als blad)","Hele dag","-","-","-","-","-","-","✓","✓","✓","-","-","-"
 "Zakjesdrager.png","Zakjesdrager","Bagworm","600","In bomen","Hele dag","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
 "Mier.png","Ant","80","Op bedorven voedsel","Hele dag","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
-"Heremietkreeft.png","Hermietkreeft","Hermit crab","1000","Sand (lijkt op schelp)","19:00 - 08:00","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
-"Sandpissebed.png","Sandpissebed","Wharf roach","200","Rotsen aan de kust","Hele dag","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
+"Heremietkreeft.png","Hermietkreeft","Hermit crab","1000","Strand (lijkt op schelp)","19:00 - 08:00","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
+"Strandpissebed.png","Strandpissebed","Wharf roach","200","Rotsen aan de kust","Hele dag","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
 "Vlieg.png","Vlieg","Fly","60","Op afval","Hele dag","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓","✓"
 "Mug.png","Mug","Mosquito","130","Vliegend","17:00 - 04:00","-","-","-","-","-","✓","✓","✓","✓","-","-","-"
 "Vlo.png","Flea","70","Op bewoners","Hele dag","-","-","-","✓","✓","✓","✓","✓","✓","✓","✓","-"
