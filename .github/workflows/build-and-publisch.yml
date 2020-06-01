@@ -14,18 +14,29 @@ on:
 jobs:
   # This workflow contains a single job called "build"
   build:
-    name: Build the angular app
-    # The type of runner that the job will run on
-    runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part of the job
-    steps:
-    - uses: actions/checkout@master
-    - uses: actions/setup-node@master
-      with:
-        node-version: '10.x'
-    - run: npm install
-    - run: ng build --prod
+    runs-on: ubuntu-latest  
+    strategy:  
+      matrix:  
+        node-version: [12.x]  
+  
+    steps:  
+    - uses: actions/checkout@v1  
+    - name: Cache node modules  
+      uses: actions/cache@v1  
+      with:  
+        path: ~/.npm  
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}  
+        restore-keys: |  
+          ${{ runner.os }}-node-  
+    - name: Node ${{ matrix.node-version }}  
+      uses: actions/setup-node@v1  
+      with:  
+        node-version: ${{ matrix.node-version }}  
+    - name: npm install and npm run build:ci  
+      run: |  
+        npm i  
+        npm run build:ci  
+     
     - name: ftp-action
       uses: sebastianpopp/ftp-action@v2.0.0
       with:
@@ -38,6 +49,6 @@ jobs:
         # Force SSL encryption
         #forceSsl: # optional, default is false
         # Local directory
-        #localDir: # optional, default is .
+        localDir: dist/ac-nh-data/
         # Remote directory
         remoteDir: /public_html/ac-nh
