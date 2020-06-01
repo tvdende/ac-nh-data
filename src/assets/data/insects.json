@@ -481,11 +481,11 @@
     },
     {
       "image": "Wesp.png",
-      "naamNL": "Wasp",
-      "naamEN": 2500,
-      "prijs": "In bomen",
-      "type": "Hele dag",
-      "tijd": "✓",
+      "naamNL": "Wesp",
+      "naamEN": "Wasp",
+      "prijs": 2500,
+      "type": "In bomen",
+      "tijd": "Hele dag",
       "januari": "✓",
       "febuari": "✓",
       "maart": "✓",
@@ -497,7 +497,7 @@
       "september": "✓",
       "oktober": "✓",
       "november": "✓",
-      "december": ""
+      "december": "✓"
     },
     {
       "image": "EN-Brown-Cicada.png",
@@ -1361,11 +1361,11 @@
     },
     {
       "image": "Mier.png",
-      "naamNL": "Ant",
-      "naamEN": 80,
-      "prijs": "Op bedorven voedsel",
-      "type": "Hele dag",
-      "tijd": "✓",
+      "naamNL": "Mier",
+      "naamEN": "Ant",
+      "prijs": 80,
+      "type": "Op bedorven voedsel",
+      "tijd": "Hele dag",
       "januari": "✓",
       "febuari": "✓",
       "maart": "✓",
@@ -1377,7 +1377,7 @@
       "september": "✓",
       "oktober": "✓",
       "november": "✓",
-      "december": ""
+      "december": "✓"
     },
     {
       "image": "Heremietkreeft.png",
@@ -1461,14 +1461,14 @@
     },
     {
       "image": "Vlo.png",
-      "naamNL": "Flea",
-      "naamEN": 70,
-      "prijs": "Op bewoners",
-      "type": "Hele dag",
-      "tijd": "-",
+      "naamNL": "Vlooi",
+      "naamEN": "Flea",
+      "prijs": 70,
+      "type": "Op bewoners",
+      "tijd": "Hele dag",
       "januari": "-",
       "febuari": "-",
-      "maart": "✓",
+      "maart": "-",
       "april": "✓",
       "mei": "✓",
       "juni": "✓",
@@ -1476,8 +1476,8 @@
       "augustus": "✓",
       "september": "✓",
       "oktober": "✓",
-      "november": "-",
-      "december": ""
+      "november": "✓",
+      "december": "-"
     },
     {
       "image": "Slak.png",
@@ -1562,22 +1562,22 @@
     {
       "image": "Vogelspin.png",
       "naamNL": "Tarantula",
-      "naamEN": 8000,
-      "prijs": "Op de grond",
-      "type": "19:00 - 04:00",
-      "tijd": "✓",
+      "naamEN": "Tarantula",
+      "prijs": 8000,
+      "type": "Op de grond",
+      "tijd": "19:00 - 04:00",
       "januari": "✓",
       "febuari": "✓",
       "maart": "✓",
-      "april": "-",
+      "april": "✓",
       "mei": "-",
       "juni": "-",
       "juli": "-",
       "augustus": "-",
       "september": "-",
-      "oktober": "✓",
+      "oktober": "-",
       "november": "✓",
-      "december": ""
+      "december": "✓"
     },
     {
       "image": "Schorpioen.png",

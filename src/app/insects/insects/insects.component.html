@@ -1,1 +1,31 @@
-<p>insects works!</p>
+<p-multiSelect [options]="cols" [(ngModel)]="selectedCols" optionLabel="header"> </p-multiSelect>
+
+<p-table #dt [value]="insects | async" [columns]="selectedCols">
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+            <th *ngFor="let col of columns">
+                {{col.header}}
+            </th>
+        </tr>
+        <tr>
+            <th *ngFor="let col of columns">
+                <input *ngIf="col.type == 'text'" pInputText type="text"
+                    (input)="dt.filter($event.target.value, col.field, 'contains')" />
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr>
+            <td *ngFor="let col of columns" >
+                <span [ngSwitch]="col.type">
+                    <span *ngSwitchCase="'text'">
+                        {{rowData[col.field]}}
+                    </span>
+                    <span *ngSwitchCase="'image'">
+                        <img [src]="'assets/images/' + rowData[col.field]" />
+                    </span>
+                </span>
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
