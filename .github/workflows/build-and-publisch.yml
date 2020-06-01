@@ -5,10 +5,10 @@ name: CD
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
 on:
-  push:
-    branches: [ master ]
-  pull_request:
-    branches: [ master ]
+  #push:
+  #  branches: [ master ]
+  #pull_request:
+  #  branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -35,7 +35,7 @@ jobs:
     - name: npm install and npm run build:ci  
       run: |  
         npm i  
-        npm run build:ci  
+        npm run build:prod 
      
     - name: ftp-action
       uses: sebastianpopp/ftp-action@v2.0.0
