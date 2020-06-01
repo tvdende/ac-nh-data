@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { InsectsService } from '../Insects.service';
+import { InsectsService } from '../insects.service';
 import { BehaviorSubject } from 'rxjs';
 import { Insect } from '../insect';
 
